@@ -42,7 +42,7 @@ public class Main {
         return totalValue;
     }
     public static boolean containsValidRomanNumeral(String input) {
-        // this method's parameter includes the input the user entered and the array list that we made in the main method.
+        // this method's parameter includes the input the user entered in the main method.
         // Define a regular expression to match valid Roman numerals
         String validRomanNumeralPattern = "^(M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}))$";
         // this pattern limits the roman numerals in a way that they can be combined accurately within the range of 1 to 3999
